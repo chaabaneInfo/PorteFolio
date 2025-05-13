@@ -364,6 +364,12 @@ footer {
     cursor: pointer;
 }
 
+.menu-toggle::before {
+    content: "☰"; /* Symbole des trois traits */
+    font-size: 2rem;
+    color: white;
+}
+
 .menu {
     display: flex;
     justify-content: center;
