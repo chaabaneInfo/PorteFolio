@@ -9,7 +9,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: #333;
-    padding-top: 4rem;
 }
 
 /* Navigation */
@@ -20,7 +19,6 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
-    height: 4rem;
 }
 
 nav ul {
@@ -54,7 +52,6 @@ nav ul li a:hover {
     text-align: center;
     color: white;
     padding: 0 1rem;
-    padding-top: 5rem;
 }
 
 .hero-content {
@@ -308,12 +305,6 @@ footer {
         grid-template-columns: 1fr;
     }
 
-     .hero {
-        padding-top: 6rem; 
-    }
-        body {
-        padding-top: 5rem;
-    }
 
         .menu {
         flex-direction: column;
