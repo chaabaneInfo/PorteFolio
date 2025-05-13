@@ -19,6 +19,7 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
+    height: 4rem;
 }
 
 nav ul {
@@ -52,6 +53,7 @@ nav ul li a:hover {
     text-align: center;
     color: white;
     padding: 0 1rem;
+    padding-top: 5rem;
 }
 
 .hero-content {
@@ -303,5 +305,9 @@ footer {
 
     .competences-grid {
         grid-template-columns: 1fr;
+    }
+
+     .hero {
+        padding-top: 6rem; 
     }
 }
